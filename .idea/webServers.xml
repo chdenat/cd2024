@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f6f9b63d-4e03-428d-a07c-feed24d55ca3" name="CD2024">
+        <fileTransfer rootFolder="/home/www/christinedeloupy/cd2020/wp-content/themes/cd2024" accessType="SFTP" host="p5077.webmo.fr" port="22" sshConfigId="fbac8b68-e2a0-4fca-ad0e-a8e35d4f4cfd" sshConfig="p5077@p5077.webmo.fr:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" isUseRsync="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

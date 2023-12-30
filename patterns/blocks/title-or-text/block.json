@@ -1,0 +1,31 @@
+{
+  "name": "noleam/titre",
+  "title": "Titre ou texte",
+  "description": "Personnalisation du titre et sous-titre.",
+  "style": [
+    "file:./style.css"
+  ],
+  "category": "noleam",
+  "icon": "admin-comments",
+  "keywords": [
+    "titre",
+    "sous titre"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "render.php"
+  },
+  "align": "full",
+  "typography": {
+    "lineHeight": true,
+    "fontSize": true
+  },
+  "fullHeight": true,
+  "supports": {
+    "color": {
+      "text": true,
+      "background": true,
+      "link": true
+    }
+  }
+}

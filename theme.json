@@ -1,0 +1,704 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"blocks": {
+			"core/buttons": {
+				"appearanceTools": true,
+				"layout": {
+					"contentSize": true,
+					"wideSize": true
+				},
+				"spacing": {
+					"customSpacingSize": true,
+					"spacingScale": {
+						"increment": 1.5,
+						"mediumStep": 1.5,
+						"operator": "*",
+						"steps": 7,
+						"unit": "rem"
+					},
+					"spacingSizes": []
+				},
+				"typography": {
+					"customFontSize": true,
+					"dropCap": true,
+					"fluid": true,
+					"fontFamilies": [
+						{
+							"fontFace": [
+								{
+									"fontFamily": "MadeMirage",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "200",
+									"src": [
+										"file:./assets/fonts/MadeMirage/MadeMirageThin.otf"
+									]
+								},
+								{
+									"fontFamily": "MadeMirage",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "400",
+									"src": [
+										"file:./assets/fonts/MadeMirage/MadeMirageRegular.otf"
+									]
+								},
+								{
+									"fontFamily": "MadeMirage",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "600",
+									"src": [
+										"file:./assets/fonts/MadeMirage/MadeMirageMedium.otf"
+									]
+								},
+								{
+									"fontFamily": "MadeMirage",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "800",
+									"src": [
+										"file:./assets/fonts/MadeMirage/MadeMirageBold.otf"
+									]
+								},
+								{
+									"fontFamily": "MadeMirage",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "900",
+									"src": [
+										"file:./assets/fonts/MadeMirage/MadeMirageBlack.otf"
+									]
+								}
+							],
+							"fontFamily": "MadeMirage,serif",
+							"name": "MadeMirage",
+							"slug": "made-mirage"
+						},
+						{
+							"fontFace": [
+								{
+									"fontFamily": "MadeMirage",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "200",
+									"src": [
+										"file:./assets/fonts/MadeMirage/MadeMirageThin.otf"
+									]
+								},
+								{
+									"fontFamily": "MadeMirage",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "400",
+									"src": [
+										"file:./assets/fonts/MadeMirage/MadeMirageRegular.otf"
+									]
+								},
+								{
+									"fontFamily": "MadeMirage",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "600",
+									"src": [
+										"file:./assets/fonts/MadeMirage/MadeMirageMedium.otf"
+									]
+								}
+							],
+							"fontFamily": "MadeMirage,serif",
+							"name": "Menu",
+							"slug": "menu-font"
+						},
+						{
+							"fontFace": [
+								{
+									"fontFamily": "Roboto Flex",
+									"fontStretch": "normal",
+									"fontWeight": "200 900",
+									"src": [
+										"file:./assets/fonts/Roboto Flex/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf"
+									]
+								}
+							],
+							"fontFamily": "\"Roboto Flex\",sans-serif",
+							"name": "Bouton",
+							"slug": "button-font"
+						},
+						{
+							"fontFace": [
+								{
+									"fontFamily": "IbarraRealNova",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "400",
+									"src": [
+										"file:./assets/fonts/IbarraRealNova/IbarraRealNova-Regular.ttf"
+									]
+								},
+								{
+									"fontFamily": "IbarraRealNova",
+									"fontStretch": "normal",
+									"fontStyle": "italic",
+									"fontWeight": "400",
+									"src": [
+										"file:./assets/fonts/IbarraRealNova/IbarraRealNova-Italic.ttf"
+									]
+								},
+								{
+									"fontFamily": "IbarraRealNova",
+									"fontStretch": "normal",
+									"fontStyle": "normal",
+									"fontWeight": "600",
+									"src": [
+										"file:./assets/fonts/IbarraRealNova/IbarraRealNova-SemiBold.ttf"
+									]
+								},
+								{
+									"fontFamily": "IbarraRealNova",
+									"fontStretch": "normal",
+									"fontStyle": "italic",
+									"fontWeight": "600",
+									"src": [
+										"file:./assets/fonts/IbarraRealNova/IbarraRealNova-SemiBoldItalic.ttf"
+									]
+								}
+							],
+							"fontFamily": "IbarraRealNova",
+							"name": "Texte",
+							"slug": "text-font"
+						}
+					],
+					"fontStyle": false,
+					"fontWeight": false,
+					"letterSpacing": false,
+					"textDecoration": false,
+					"textTransform": false
+				}
+			}
+		},
+		"color": {
+			"background": true,
+			"custom": true,
+			"customDuotone": true,
+			"customGradient": false,
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"duotone": [
+				{
+					"colors": [
+						"#5e5e5e",
+						"#Eb6b96"
+					],
+					"name": "Rose et gris",
+					"slug": "Rose et gris"
+				}
+			],
+			"palette": [
+				{
+					"color": "#fc758e",
+					"name": "Principale",
+					"slug": "primary"
+				},
+				{
+					"color": "#e54c7c",
+					"name": "Secondaire",
+					"slug": "secondary"
+				},
+				{
+					"color": "#a00054",
+					"name": "Rose Foncé",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#f9bfc1",
+					"name": "Rose Clair",
+					"slug": "quaternary"
+				},
+				{
+					"color": "#60605b",
+					"name": "Texte",
+					"slug": "text"
+				},
+				{
+					"color": "#fff",
+					"name": "Blanc",
+					"slug": "base"
+				},
+				{
+					"color": "#000",
+					"name": "Noir",
+					"slug": "contrast"
+				},
+				{
+					"color": "#d3d3d3",
+					"name": "Gris clair",
+					"slug": "lightgray"
+				}
+			],
+			"text": true
+		},
+		"layout": {
+			"contentSize": "1100px",
+			"wideSize": "1600px"
+		},
+		"shadow": {
+			"defaultPresets": true,
+			"presets": []
+		},
+		"spacing": {
+			"blockGap": true,
+			"margin": true,
+			"padding": true,
+			"customSpacingSize": true,
+			"units": ["rem"],
+
+			"spacingScale": {
+				"increment": 0.5,
+				"mediumStep": 1,
+				"operator": "+",
+				"steps": 10,
+				"unit": "rem"
+			},
+			"spacingSizes": []
+		},
+		"typography": {
+			"customFontSize": true,
+			"dropCap": true,
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "MadeMirage",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/MadeMirage/MadeMirageThin.otf"
+							]
+						},
+						{
+							"fontFamily": "MadeMirage",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/MadeMirage/MadeMirageRegular.otf"
+							]
+						},
+						{
+							"fontFamily": "MadeMirage",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/MadeMirage/MadeMirageMedium.otf"
+							]
+						},
+						{
+							"fontFamily": "MadeMirage",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/MadeMirage/MadeMirageBold.otf"
+							]
+						},
+						{
+							"fontFamily": "MadeMirage",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/MadeMirage/MadeMirageBlack.otf"
+							]
+						}
+					],
+					"fontFamily": "MadeMirage,serif",
+					"name": "MadeMirage",
+					"slug": "made-mirage"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "MadeMirage",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/MadeMirage/MadeMirageThin.otf"
+							]
+						},
+						{
+							"fontFamily": "MadeMirage",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/MadeMirage/MadeMirageRegular.otf"
+							]
+						},
+						{
+							"fontFamily": "MadeMirage",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/MadeMirage/MadeMirageMedium.otf"
+							]
+						}
+					],
+					"fontFamily": "MadeMirage,serif",
+					"name": "Menu",
+					"slug": "menu-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Roboto Flex",
+							"fontStretch": "normal",
+							"fontWeight": "200 900",
+							"src": [
+								"file:./assets/fonts/Roboto Flex/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Roboto Flex\",sans-serif",
+					"name": "Bouton",
+					"slug": "button-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "IbarraRealNova",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/IbarraRealNova/IbarraRealNova-VariableFont_wght.ttf"
+							]
+						},
+						{
+							"fontFamily": "IbarraRealNova",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/IbarraRealNova/IbarraRealNova-Italic-VariableFont_wght.ttf.ttf"
+							]
+						},
+						{
+							"fontFamily": "IbarraRealNova",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/IbarraRealNova/IbarraRealNova-VariableFont_wght.ttf"
+							]
+						},
+						{
+							"fontFamily": "IbarraRealNova",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/IbarraRealNova/IbarraRealNova-Italic-VariableFont_wght.ttf"
+							]
+						}
+					],
+					"fontFamily": "IbarraRealNova",
+					"name": "Texte",
+					"slug": "text-font"
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": {
+						"max": "1rem",
+						"min": "0.6rem"
+					},
+					"name": "Small",
+					"size": "0.7rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"max": "1.3rem",
+						"min": "0.9rem"
+					},
+					"name": "Normal",
+					"size": "1.1rem",
+					"slug": "normal"
+				},
+				{
+					"fluid": {
+						"max": "1.5rem",
+						"min": "1rem"
+					},
+					"name": "Medium",
+					"size": "1.2rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"max": "2rem",
+						"min": "1.4rem"
+					},
+					"name": "Large",
+					"size": "1.5rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"max": "2.5rem",
+						"min": "1.8rem"
+					},
+					"name": "XL",
+					"size": "2rem",
+					"slug": "xl"
+				},
+				{
+					"fluid": {
+						"max": "3.5rem",
+						"min": "2.2rem"
+					},
+					"name": "XXL",
+					"size": "2.5rem",
+					"slug": "xxl"
+				}
+			],
+			"fontStyle": true,
+			"fontWeight": true,
+			"letterSpacing": false,
+			"textDecoration": true,
+			"textTransform": true
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"border": {
+					"bottom": {
+						"style": "solid",
+						"width": "2px"
+					},
+					"left": {
+						"style": "solid",
+						"width": "2px"
+					},
+					"radius": "2rem",
+					"right": {
+						"style": "solid",
+						"width": "2px"
+					},
+					"top": {
+						"style": "solid",
+						"width": "2px"
+					}
+				},
+				"color": {
+					"background": "var(--wp--preset--color--blanc)",
+					"text": "var(--wp--preset--color--tertiary)"
+				},
+				"shadow": "3px 3px 9px rgba(0, 0, 0, 0.1)",
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--button-font)",
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontStyle": "normal",
+					"fontWeight": "700",
+					"lineHeight": "1",
+					"textTransform": "capitalize"
+				}
+			},
+			"core/buttons": {
+				"spacing": {
+					"blockGap": "1rem"
+				}
+			},
+			"core/cover": {
+				"color": {
+					"text": "var(--wp--preset--color--base)"
+				},
+				"elements": {
+					"button": {
+						":focus": {
+							"color": {
+								"background": "var(--wp--preset--color--tertiary)",
+								"text": "var(--wp--preset--color--base)"
+							}
+						},
+						":hover": {
+							"color": {
+								"background": "var(--wp--preset--color--base)",
+								"text": "var(--wp--preset--color--secondary)"
+							}
+						},
+						"color": {
+							"background": "var(--wp--preset--color--tertiary)",
+							"text": "var(--wp--preset--color--base)"
+						}
+					},
+					"heading": {
+						"color": {
+							"text": "var(--wp--preset--color--base)"
+						}
+					},
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--base)"
+						}
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--made-mirage)"
+				}
+			},
+			"core/navigation": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--menu-font)",
+					"fontStyle": "medium",
+					"fontWeight": "400",
+					"letterSpacing": "-2px",
+					"textTransform": "uppercase"
+				}
+			},
+			"core/paragraph": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--text-font)",
+					"fontSize": "var(--wp--preset--font-size--normal)",
+					"fontStyle": "small",
+					"fontWeight": "400",
+					"lineHeight": "1.2",
+					"textTransform": "none"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--xxl)",
+					"textTransform": "capitalize"
+				}
+			},
+			"core/spacer": {
+				"spacing": {
+					"margin": {
+						"bottom": "0",
+						"top": "0"
+					}
+				}
+			}
+		},
+		"color": {
+			"background": "var(--wp--preset--color--base)",
+			"text": "var(--wp--preset--color--text)"
+		},
+		"elements": {
+			"caption": {
+				"color": {
+					"text": "var(--wp--preset--color--secondary)"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--xl)",
+					"fontStyle": "normal",
+					"fontWeight": "600"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--large)",
+					"fontStyle": "normal",
+					"fontWeight": "600"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontStyle": "normal",
+					"fontWeight": "600"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--normal)",
+					"fontStyle": "normal",
+					"fontWeight": "600"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--secondary)"
+				},
+				"spacing": {
+					"margin": {
+						"bottom": "1rem",
+						"top": "1rem"
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--made-mirage)",
+					"fontStyle": "normal",
+					"fontWeight": "400",
+					"textTransform": "capitalize"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--secondary)"
+				},
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "600",
+					"textDecoration": "none"
+				}
+			}
+		},
+		"spacing": {
+			"blockGap": "1rem",
+			"padding": {
+				"bottom": "0px",
+				"left": "0px",
+				"right": "0px",
+				"top": "0px"
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--text-font)",
+			"fontSize": "var(--wp--preset--font-size--normal)",
+			"fontStyle": "normal",
+			"fontWeight": "500",
+			"lineHeight": "1.2"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "header",
+			"name": "shop-header",
+			"title": "Shop Header "
+		},
+		{
+			"area": "header",
+			"name": "header-home-page",
+			"title": "Header Home Page"
+		},
+		{
+			"area": "header",
+			"name": "header-category",
+			"title": "Header Category"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		}
+	],
+	"version": 2,
+	"$schema": "https://schemas.wp.org/trunk/theme.json"
+}
