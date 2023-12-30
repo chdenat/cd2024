@@ -8,17 +8,6 @@
 					"contentSize": true,
 					"wideSize": true
 				},
-				"spacing": {
-					"customSpacingSize": true,
-					"spacingScale": {
-						"increment": 1.5,
-						"mediumStep": 1.5,
-						"operator": "*",
-						"steps": 7,
-						"unit": "rem"
-					},
-					"spacingSizes": []
-				},
 				"typography": {
 					"customFontSize": true,
 					"dropCap": true,
@@ -188,11 +177,19 @@
 			"duotone": [
 				{
 					"colors": [
-						"#5e5e5e",
-						"#Eb6b96"
+						"#321414",
+						"#F9BFC1"
 					],
-					"name": "Rose et gris",
-					"slug": "Rose et gris"
+					"name": "Rose pâle et marron",
+					"slug": "rose-pale-marron"
+				},
+				{
+					"colors": [
+						"#321414",
+						"#F05C8D"
+					],
+					"name": "Rose et marron",
+					"slug": "rose-marron"
 				}
 			],
 			"palette": [
@@ -248,20 +245,17 @@
 			"presets": []
 		},
 		"spacing": {
-			"blockGap": true,
-			"margin": true,
-			"padding": true,
-			"customSpacingSize": true,
-			"units": ["rem"],
-
 			"spacingScale": {
 				"increment": 0.5,
 				"mediumStep": 1,
 				"operator": "+",
-				"steps": 10,
+				"steps": 5,
 				"unit": "rem"
 			},
-			"spacingSizes": []
+			"spacingSizes": [],
+			"units": [
+				"rem"
+			]
 		},
 		"typography": {
 			"customFontSize": true,

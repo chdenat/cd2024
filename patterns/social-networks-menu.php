@@ -3,7 +3,7 @@
  * Title:Réseaux Sociaux
  * Slug: cd2024/social-networks-menu
  *
- * Categories: featured, banner,cd20242023,noleam
+ * Categories:cd2024
  * Keywords: menu,social
  *
  */

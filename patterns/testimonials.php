@@ -1,9 +1,9 @@
 <?php
 /**
  * Title:Témoignages
- * Slug: noleam/testimonials
+ * Slug: cd2024/testimonials
  * Post Types: post,page
- * Categories: featured, testimonials,cd20242023,noleam
+ * Categories:cd2024
  * Keywords: columns,title
  *
  */

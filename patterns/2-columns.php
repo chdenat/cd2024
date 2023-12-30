@@ -1,8 +1,8 @@
 <?php
 /**
  * Title:2 colonnes
- * Slug: noleam/2-columns
- * Categories: featured, banner,cd20242023,noleam
+ * Slug: cd2024/2-columns
+ * Categories: cd2024
  * Keywords: columns,title
  *
  */

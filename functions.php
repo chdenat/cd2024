@@ -34,3 +34,14 @@ if(class_exists('noleam/NoleamPlugin')) {
         ]
     );
 }
+
+add_filter( 'should_load_remote_block_patterns', '__return_false' );
+
+add_action( 'init', 'themeslug_register_pattern_categories' );
+
+function themeslug_register_pattern_categories() {
+    register_block_pattern_category( 'cd2024', array(
+        'label'       => __( 'Chrisistine Deloupy', 'cd2024' ),
+        'description' => __( 'Compositions pour Chritine Deloupy', 'themeslug' )
+    ) );
+}
