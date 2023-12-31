@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Menu Haut Boutique
+ * Title: Menu Haut
  * Slug: cd2024/menu-haut
  * Categories: cd2024
  * Keywords: menu
