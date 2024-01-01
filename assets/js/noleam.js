@@ -5,6 +5,8 @@
 
 document.addEventListener("DOMContentLoaded", function () {
 
+    console.log('test')
+
     selectToChoices = (select)=> {
 
         let limit = select.dataset.limit ?? -1
