@@ -1,5 +1,3 @@
-
-
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     body {
@@ -7,6 +5,42 @@
     }
 }
 
+.wp-block-button__link:hover {
+    background-color: var(--wp--preset--color--tertiary);
+    color: var(--wp--preset--color--white);
+}
+
+.page-template-shop .wp-element-button, .page-template-shop .wp-block-button__link,
+.wc-block-components-button:not(.is-link) {
+    background-color: var(--wp--preset--color--white);
+    color: var(--wp--preset--color--tertiary);
+    width: auto !important;
+    min-width: 10rem;
+    border-radius: 2rem;
+    border: 2px solid var(--wp--preset--color--tertiary) !important;
+
+    font-family: var(--wp--preset--font-family--button-font);
+    font-size: var(--wp--preset--font-size--small) !important;
+    font-weight: 700;
+    text-transform: capitalize;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.1);
+
+    box-sizing: border-box;
+    padding: 0.5rem 2rem;
+    margin: 0 auto 0 0;
+    line-height: 1.5;
+    height: auto;
+}
+
+.page-template-shop .wp-element-button:hover, .page-template-shop .wp-block-button__link:hover,
+.wc-block-components-button:not(.is-link):hover {
+    background-color: var(--wp--preset--color--tertiary);
+    color: var(--wp--preset--color--white);
+}
+
+.wc-block-components-checkout-return-to-cart-button {
+    margin-right: 3rem;
+}
 
 /**
  * Form settings
@@ -45,9 +79,8 @@
 }
 
 .mailpoet_form input[type="submit"]:hover, .forminator-button-submit:hover {
-    border: 2px solid var(--wp--preset--color--tertiary) !important;
-    background-color: var(--wp--preset--color--blanc);
-    color: var(--wp--preset--color--tertiary) !important;
+    background-color: var(--wp--preset--color--tertiary) !important;
+    color: var(--wp--preset--color--white);
 }
 
 .mailpoet_checkbox_label {
@@ -90,9 +123,9 @@
 
 .forminator-button-submit {
     box-sizing: border-box;
-    padding: 0.5rem;
+    padding: 0.5rem 2rem;
     margin: 0 auto 0 0;
-    font-size: 15px;
+    font-size: var(--wp--preset--font-size--small) !important;
     line-height: 1.5;
     height: auto;
 }
@@ -100,8 +133,8 @@
 
 :root {
     --forminator-error-color-rgb: 170, 0, 0;
-    --forminator-success-color-rgb: 0,100,0;
-    --forminator-loading-color-rgb: 255,105,00;
+    --forminator-success-color-rgb: 0, 100, 0;
+    --forminator-loading-color-rgb: 255, 105, 00;
     --forminator-error-color: rgba(var(--forminator-error-color-rgb), 1);
     --forminator-background-error-color: rgba(var(--forminator-error-color-rgb), 0.2);
     --forminator-success-color: rgba(var(--forminator-success-color-rgb), 1);
@@ -109,22 +142,25 @@
     --forminator-loading-color: rgba(var(--forminator-loading-color-rgb), 1);
     --forminator-background-loading-color: rgba(var(--forminator-loading-color-rgb), 0.2);
 }
-.forminator-response-message,.forminator-response-message p{
+
+.forminator-response-message, .forminator-response-message p {
     font-family: 'Montserrat', serif !important;
     font-weight: normal;
     border-radius: 0.5rem;
     border: 1px solid;
-    padding: 1rem;
+    padding: 0.5rem;
     font-size: calc(0.8 * var(--wp--preset--font-size--small));
 }
-.forminator-response-message p{
+
+.forminator-response-message p {
     border: 0px;
 }
 
 .forminator-response-message[aria-hidden="true"] {
     display: none;
 }
-.forminator-error-message  {
+
+.forminator-error-message {
     font-family: 'Montserrat' !important;
     font-weight: normal;
     font-size: calc(0.8 * var(--wp--preset--font-size--small));
