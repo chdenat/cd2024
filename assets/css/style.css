@@ -1,6 +1,17 @@
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body {
+        padding: 0 1rem !important;
+    }
+}
+
+
 /**
  * Form settings
  */
+
 .mailpoet_form input, .mailpoet_form input:focus-visible, .forminator-input, .forminator-textarea {
     width: 100% !important;
     padding: 0.5rem !important;
