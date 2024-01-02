@@ -1,9 +1,73 @@
+
+
+img:not(.wp-block-cover__image-background),.woocommerce-product-gallery__image {
+    border-radius: 1rem;
+}
+.woocommerce-Price-amount.amount {
+    font-family: var(--wp--preset--font-family--menu-font);
+    font-size: var(--wp--preset--font-size--large);
+    font-weight: 700;
+    color: var(--wp--preset--color--secondary);
+}
+.woocommerce-breadcrumb{
+    font-family: var(--wp--preset--font-family--menu-font) !important;
+    font-size: var(--wp--preset--font-size--small);
+    font-weight: 400;
+}
+
+/**
+ * Responsive
+ */
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     body {
-        padding: 0 1rem !important;
+        padding: 1rem !important;
+    }
+
+    /** Add padding and enhance size on mobile menu */
+    .wp-block-navigation__responsive-container-content {
+        padding: 2rem 20% !important;
+    }
+    .wp-block-cover {
+        margin-top: 1rem !important;
+    }
+    .wp-block-cover__image-background {
+        border-radius: 1rem;
+    }
+
+    .wp-site-blocks footer .has-background,
+    .entry-content > .has-background{
+        border-radius: 1rem;
+    }
+
+    .rounded-on-mobile {
+        border-radius: 1rem !important;
+    }
+
+    .hide-on-mobile {
+        display: none !important;
+    }
+    .hide-on-desktop {
+        display: flex !important;
+    }
+
+    .center-on-mobile {
+        align-items: center !important;
     }
 }
+@media only screen and (min-width: 767px) {
+
+    .hide-on-desktop {
+        display: none !important;
+    }
+
+    .hide-on-mobile {
+        display: flex !important;
+    }
+}
+/**
+  * Buttons
+ */
 
 .wp-block-button__link:hover{
     background-color: var(--wp--preset--color--tertiary);
@@ -16,16 +80,20 @@
 
 
 
-.page-template-shop .wp-element-button, .page-template-shop .wp-block-button__link,
-.wc-block-components-button:not(.is-link) {
-    background-color: var(--wp--preset--color--white);
-    color: var(--wp--preset--color--tertiary);
+.page-template-shop .wp-element-button,
+.page-template-shop .wp-block-button__link,
+.wc-block-components-button:not(.is-link),
+.wp-block-button.wc-block-grid__product-add-to-cart a,
+.single_add_to_cart_button,
+.wp-block-button:not(.is-style-outline) .wp-block-button__link:not(.has-base-color) {
+    background-color: var(--wp--preset--color--white) !important ;
+    color: var(--wp--preset--color--tertiary) !important;
     width: auto !important;
     min-width: 10rem;
     border-radius: 2rem;
     border: 2px solid var(--wp--preset--color--tertiary) !important;
 
-    font-family: var(--wp--preset--font-family--button-font);
+    font-family: var(--wp--preset--font-family--button-font) !important;
     font-size: var(--wp--preset--font-size--small) !important;
     font-weight: 700;
     text-transform: capitalize;
@@ -38,10 +106,14 @@
     height: auto;
 }
 
-.page-template-shop .wp-element-button:hover, .page-template-shop .wp-block-button__link:hover,
-.wc-block-components-button:not(.is-link):hover {
-    background-color: var(--wp--preset--color--tertiary);
-    color: var(--wp--preset--color--white);
+.page-template-shop .wp-element-button:hover,
+.page-template-shop .wp-block-button__link:hover,
+.wc-block-components-button:not(.is-link):hover,
+.wp-block-button.wc-block-grid__product-add-to-cart a:hover,
+.single_add_to_cart_button:hover,
+.wp-block-button:not(.is-style-outline) .wp-block-button__link:not(.has-base-color):hover{
+    background-color: var(--wp--preset--color--tertiary) !important;
+    color: var(--wp--preset--color--white) !important;
 }
 
 .wc-block-components-checkout-return-to-cart-button {
@@ -190,3 +262,7 @@
     border-color: var(--forminator-loading-color);
     background-color: var(--forminator-background-loading-color)
 }
+
+/**
+ * Menu
+ */
