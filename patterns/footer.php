@@ -6,80 +6,80 @@
  * Inserter: no
  */
 ?>
+<!-- wp:spacer {"height":"7rem"} -->
+<div style="height:7rem" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"100px","bottom":"100px"}}},"backgroundColor":"secondary","className":"noleam--no-top-margin","layout":{"type":"constrained"},"fontSize":"medium","fontFamily":"made-mirage","hideFromFeed":true} -->
+<div class="wp-block-group noleam--no-top-margin has-secondary-background-color has-background has-made-mirage-font-family has-medium-font-size" style="padding-top:100px;padding-bottom:100px"><!-- wp:columns {"fontFamily":"made-mirage"} -->
+<div class="wp-block-columns has-made-mirage-font-family"><!-- wp:column {"verticalAlignment":"center","fontSize":"medium"} -->
+<div class="wp-block-column is-vertically-aligned-center has-medium-font-size"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between"},"hideFromFeed":true} -->
+<div class="wp-block-group"><!-- wp:image {"id":14739,"width":"140px","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/Logo-CD2024-blanc.png" alt="" class="wp-image-14739" style="width:140px"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:social-links {"iconColor":"base","iconColorValue":"#fff","openInNewTab":true,"size":"has-normal-icon-size","lock":{"move":false,"remove":false},"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"className":"main-social-bar is-style-logos-only","layout":{"type":"flex","justifyContent":"left","flexWrap":"nowrap","orientation":"horizontal"}} -->
+<ul class="wp-block-social-links has-normal-icon-size has-icon-color main-social-bar is-style-logos-only"><!-- wp:social-link {"url":"https://www.facebook.com/christinedeloupy.fr/","service":"facebook"} /-->
+
+<!-- wp:social-link {"url":"https://www.instagram.com/espace.kocoon/","service":"instagram","label":"55"} /-->
+
+<!-- wp:social-link {"url":"https://www.youtube.com/channel/UCga29UmA7ocb5hbIh54iueg","service":"youtube","label":"9999","rel":"888"} /-->
+
+<!-- wp:social-link {"url":"https://www.linkedin.com/in/christine-deloupy-41000886/","service":"linkedin"} /-->
+
+<!-- wp:social-link {"url":"https://fr.pinterest.com/kocoon38/","service":"pinterest"} /--></ul>
+<!-- /wp:social-links -->
+
+<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","fontSize":"small"} -->
+<h3 class="wp-block-heading has-base-color has-text-color has-link-color has-small-font-size"><a href="https://christinedeloupy.fr/je-suis/">En savoir plus</a></h3>
+<!-- /wp:heading --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"top"} -->
+<div class="wp-block-column is-vertically-aligned-top"><!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","layout":{"type":"constrained"},"hideFromFeed":true} -->
+<div class="wp-block-group has-base-color has-text-color has-link-color"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="https://christinedeloupy.fr/contact/" data-type="page" data-id="87">Me Contacter</a></h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="https://christinedeloupy.fr/newsletter/" data-type="page" data-id="11380">ma newsletter</a></h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3,"className":"noleam-no-top-margin"} -->
+<h3 class="wp-block-heading noleam-no-top-margin"><a href="https://christinedeloupy.fr/accompagnements/" data-type="page" data-id="8113">Mes accompagnements</a></h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="https://christinedeloupy.fr/mes-bijoux/" data-type="page" data-id="11031">Mes "Magiks" bracelets</a></h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><a href="https://christinedeloupy.fr/boutique/" data-type="page" data-id="11111">Ma boutique</a></h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} -->
+<h3 class="wp-block-heading has-base-color has-text-color has-link-color">Mon<a href="http://dev.christinedeloupy.fr/cart/" data-type="page" data-id="520"> </a><a href="https://christinedeloupy.fr/mon-blog/" data-type="page" data-id="10978">blog</a></h3>
+<!-- /wp:heading --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
 <!-- wp:spacer {"height":"3rem"} -->
 <div style="height:3rem" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"style":{"border":{"top":{"color":"var:preset|color|secondary"},"right":[],"bottom":[],"left":[]},"spacing":{"padding":{"top":"3rem","bottom":"3rem"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--secondary);padding-top:3rem;padding-bottom:3rem"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:site-logo {"width":148} /-->
-
-<!-- wp:block {"ref":3658} /-->
-
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:spacer {"height":"1rem"} -->
-<div style="height:1rem" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}},"fontSize":"small","fontFamily":"made-mirage"} -->
-<p class="has-made-mirage-font-family has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--30)"><a href="/a-propos">A propos</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}},"fontSize":"small","fontFamily":"made-mirage"} -->
-<p class="has-made-mirage-font-family has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--30)"><a href="/politique-de-confidentialite">Politique de confidentialité</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}},"fontSize":"small","fontFamily":"made-mirage"} -->
-<p class="has-made-mirage-font-family has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--30)"><a href="/cgu">CGU</a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group --></div>
-<!-- /wp:column -->
-
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Recevez ma newsletter</h3>
+<!-- wp:group {"style":{"spacing":{"blockGap":"3rem"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"},"fontSize":"medium","hideFromFeed":true} -->
+<div class="wp-block-group has-base-color has-text-color has-link-color has-medium-font-size"><!-- wp:heading {"level":3,"fontSize":"small"} -->
+<h3 class="wp-block-heading has-small-font-size"><a href="/politique-de-confidentialite">Politique de confidentialité</a></h3>
 <!-- /wp:heading -->
 
-<!-- wp:mailpoet/subscription-form-block {"formId":3} /-->
-
-<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"space-between"},"style":{"spacing":{"blockGap":"0"}},"fontSize":"small"} -->
-<div class="wp-block-buttons has-custom-font-size has-small-font-size"><!-- wp:button {"backgroundColor":"secondary","style":{"border":{"width":"1px"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-secondary-background-color has-background wp-element-button" style="border-width:1px">Text essai</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons -->
-
-<!-- wp:image {"align":"center","id":3629,"width":345,"height":345,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/21-Designer.png" alt="" class="wp-image-3629" style="width:345px;height:345px" width="345" height="345"/></figure>
-<!-- /wp:image --></div>
-<!-- /wp:group --></div>
-<!-- /wp:column -->
-
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Restons en contact</h3>
+<!-- wp:heading {"level":3,"fontSize":"small"} -->
+<h3 class="wp-block-heading has-small-font-size"><a href="https://christinedeloupy.fr/mentions-legales/" data-type="page" data-id="7065">Mentions légales</a></h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--30)">Vous pouvez me contacter de diverses façons :</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30","left":"0"},"padding":{"left":"var:preset|spacing|50"}}},"fontSize":"small","fontFamily":"made-mirage"} -->
-<p class="has-made-mirage-font-family has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--30);margin-left:0;padding-left:var(--wp--preset--spacing--50)"><a href="tel:0632062080">06 32 06 20 80</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30","left":"0"},"padding":{"left":"var:preset|spacing|50"}}},"fontSize":"small","fontFamily":"made-mirage"} -->
-<p class="has-made-mirage-font-family has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--30);margin-left:0;padding-left:var(--wp--preset--spacing--50)"><a href="https://christinedeloupy.fr/contact">Via le formulaire de contact</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30","left":"0"},"padding":{"left":"var:preset|spacing|50"}}},"fontSize":"small","fontFamily":"made-mirage"} -->
-<p class="has-made-mirage-font-family has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--30);margin-left:0;padding-left:var(--wp--preset--spacing--50)"><a href="mailto:contact@christinedeloupy.fr">par mail</a></p>
-<!-- /wp:paragraph --></div>
+<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","fontSize":"small"} -->
+<h3 class="wp-block-heading has-base-color has-text-color has-link-color has-small-font-size">Conditions générales de Vente</h3>
+<!-- /wp:heading --></div>
 <!-- /wp:group --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
 <!-- /wp:group -->

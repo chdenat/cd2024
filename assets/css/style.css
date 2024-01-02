@@ -5,10 +5,16 @@
     }
 }
 
-.wp-block-button__link:hover {
+.wp-block-button__link:hover{
     background-color: var(--wp--preset--color--tertiary);
     color: var(--wp--preset--color--white);
 }
+.is-style-outline .wp-block-button__link:hover{
+    background-color: var(--wp--preset--color--tertiary) !important;
+    color: var(--wp--preset--color--white) !important;
+}
+
+
 
 .page-template-shop .wp-element-button, .page-template-shop .wp-block-button__link,
 .wc-block-components-button:not(.is-link) {

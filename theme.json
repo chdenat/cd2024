@@ -68,45 +68,26 @@
 						{
 							"fontFace": [
 								{
-									"fontFamily": "MadeMirage",
+									"fontFamily": "Montserrat",
 									"fontStretch": "normal",
-									"fontStyle": "normal",
-									"fontWeight": "200",
+									"fontWeight": "200 900",
 									"src": [
-										"file:./assets/fonts/MadeMirage/MadeMirageThin.otf"
-									]
-								},
-								{
-									"fontFamily": "MadeMirage",
-									"fontStretch": "normal",
-									"fontStyle": "normal",
-									"fontWeight": "400",
-									"src": [
-										"file:./assets/fonts/MadeMirage/MadeMirageRegular.otf"
-									]
-								},
-								{
-									"fontFamily": "MadeMirage",
-									"fontStretch": "normal",
-									"fontStyle": "normal",
-									"fontWeight": "600",
-									"src": [
-										"file:./assets/fonts/MadeMirage/MadeMirageMedium.otf"
+										"file:./assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf"
 									]
 								}
 							],
-							"fontFamily": "MadeMirage,serif",
+							"fontFamily": "Montserrat,sans-serif",
 							"name": "Menu",
 							"slug": "menu-font"
 						},
 						{
 							"fontFace": [
 								{
-									"fontFamily": "Roboto Flex",
+									"fontFamily": "Montserrat",
 									"fontStretch": "normal",
 									"fontWeight": "200 900",
 									"src": [
-										"file:./assets/fonts/Roboto Flex/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf"
+										"file:./assets/fonts/Montserrat-Italic-VariableFont_wght.ttf"
 									]
 								}
 							],
@@ -317,49 +298,30 @@
 				{
 					"fontFace": [
 						{
-							"fontFamily": "MadeMirage",
+							"fontFamily": "Montserrat",
 							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "200",
+							"fontWeight": "200 900",
 							"src": [
-								"file:./assets/fonts/MadeMirage/MadeMirageThin.otf"
-							]
-						},
-						{
-							"fontFamily": "MadeMirage",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/MadeMirage/MadeMirageRegular.otf"
-							]
-						},
-						{
-							"fontFamily": "MadeMirage",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/MadeMirage/MadeMirageMedium.otf"
+								"file:./assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf"
 							]
 						}
 					],
-					"fontFamily": "MadeMirage,serif",
+					"fontFamily": "Montserrat,sans-serif",
 					"name": "Menu",
 					"slug": "menu-font"
 				},
 				{
 					"fontFace": [
 						{
-							"fontFamily": "Roboto Flex",
+							"fontFamily": "Montserrat",
 							"fontStretch": "normal",
 							"fontWeight": "200 900",
 							"src": [
-								"file:./assets/fonts/Roboto Flex/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf"
+								"file:./assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf"
 							]
 						}
 					],
-					"fontFamily": "\"Roboto Flex\",sans-serif",
+					"fontFamily": "Montserrat,sans-serif",
 					"name": "Bouton",
 					"slug": "button-font"
 				},
@@ -501,7 +463,7 @@
 					"fontFamily": "var(--wp--preset--font-family--button-font)",
 					"fontSize": "var(--wp--preset--font-size--small)",
 					"fontStyle": "normal",
-					"fontWeight": "700",
+					"fontWeight": "600",
 					"lineHeight": "1",
 					"textTransform": "capitalize"
 				}
@@ -511,6 +473,7 @@
 					"blockGap": "1rem"
 				}
 			},
+
 			"core/cover": {
 				"color": {
 					"text": "var(--wp--preset--color--base)"
