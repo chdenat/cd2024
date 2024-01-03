@@ -54,6 +54,16 @@ img:not(.wp-block-cover__image-background),.woocommerce-product-gallery__image {
     .center-on-mobile {
         align-items: center !important;
     }
+
+    .center-children-on-mobile > * {
+        margin:auto !important;
+        align-items: center !important;
+        text-align: center !important;
+        justify-content: center !important;
+        float: none !important;
+    }
+
+;
 }
 @media only screen and (min-width: 767px) {
 
