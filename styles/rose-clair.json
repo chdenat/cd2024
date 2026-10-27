@@ -1,0 +1,56 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "2026",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#f9bfc1",
+					"name": "Principale",
+					"slug": "primary"
+				},
+				{
+					"color": "#fc758e",
+					"name": "Secondaire",
+					"slug": "secondary"
+				},
+				{
+					"color": "#e54c7c",
+					"name": "Rose Foncé",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#a00054",
+					"name": "Rose Très Foncé",
+					"slug": "quaternary"
+				},
+				{
+					"color": "#60605b",
+					"name": "Texte",
+					"slug": "text"
+				},
+				{
+					"color": "#fff",
+					"name": "Blanc",
+					"slug": "base"
+				},
+				{
+					"color": "#000",
+					"name": "Noir",
+					"slug": "contrast"
+				},
+				{
+					"color": "#d3d3d3",
+					"name": "Gris clair",
+					"slug": "lightgray"
+				},
+				{
+					"color": "#7a2a86",
+					"name": "Prix boutique",
+					"slug": "prix-boutique"
+				}
+			]
+		}
+	}
+}

@@ -3,11 +3,15 @@
 img:not(.wp-block-cover__image-background),.woocommerce-product-gallery__image {
     border-radius: 1rem;
 }
+
+.amways-rounded {
+    border-radius: 1rem;
+}
 .woocommerce-Price-amount.amount {
     font-family: var(--wp--preset--font-family--menu-font);
     font-size: var(--wp--preset--font-size--large);
     font-weight: 700;
-    color: var(--wp--preset--color--secondary);
+    color: var(--wp--preset--color--prix-boutique);
 }
 .woocommerce-breadcrumb{
     font-family: var(--wp--preset--font-family--menu-font) !important;
@@ -75,57 +79,6 @@ img:not(.wp-block-cover__image-background),.woocommerce-product-gallery__image {
         display: flex !important;
     }
 }
-/**
-  * Buttons
- */
-
-.wp-block-button__link:hover{
-    background-color: var(--wp--preset--color--tertiary);
-    color: var(--wp--preset--color--white);
-}
-.is-style-outline .wp-block-button__link:hover{
-    background-color: var(--wp--preset--color--tertiary) !important;
-    color: var(--wp--preset--color--white) !important;
-}
-
-
-
-.page-template-shop .wp-element-button,
-.page-template-shop .wp-block-button__link,
-.wc-block-components-button:not(.is-link),
-.wp-block-button.wc-block-grid__product-add-to-cart a,
-.single_add_to_cart_button,
-.wp-block-button:not(.is-style-outline) .wp-block-button__link:not(.has-base-color) {
-    background-color: var(--wp--preset--color--white) !important ;
-    color: var(--wp--preset--color--tertiary) !important;
-    width: auto !important;
-    min-width: 10rem;
-    border-radius: 2rem;
-    border: 2px solid var(--wp--preset--color--tertiary) !important;
-
-    font-family: var(--wp--preset--font-family--button-font) !important;
-    font-size: var(--wp--preset--font-size--small) !important;
-    font-weight: 700;
-    text-transform: capitalize;
-    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.1);
-
-    box-sizing: border-box;
-    padding: 0.5rem 2rem;
-    margin: 0 auto 0 0;
-    line-height: 1.5;
-    height: auto;
-}
-
-.page-template-shop .wp-element-button:hover,
-.page-template-shop .wp-block-button__link:hover,
-.wc-block-components-button:not(.is-link):hover,
-.wp-block-button.wc-block-grid__product-add-to-cart a:hover,
-.single_add_to_cart_button:hover,
-.wp-block-button:not(.is-style-outline) .wp-block-button__link:not(.has-base-color):hover{
-    background-color: var(--wp--preset--color--tertiary) !important;
-    color: var(--wp--preset--color--white) !important;
-}
-
 .wc-block-components-checkout-return-to-cart-button {
     margin-right: 3rem;
 }
@@ -273,6 +226,111 @@ img:not(.wp-block-cover__image-background),.woocommerce-product-gallery__image {
     background-color: var(--forminator-background-loading-color)
 }
 
+/* WordPress color utility classes on marked text should not alter its appearance. */
+mark[class*="has-"],
+mark[class*="wp-"] {
+    all: revert !important;
+}
+
 /**
  * Menu
  */
+
+/* Use the site's custom button color for outline buttons. */
+.wp-block-button.is-style-outline > .wp-block-button__link {
+    color: var(--wp--preset--color--custom-titres-et-boutons);
+    border-color: currentColor;
+}
+
+.wp-block-button.is-style-outline > .wp-block-button__link:hover,
+.wp-block-button.is-style-outline > .wp-block-button__link:focus-visible {
+    background-color: var(--wp--preset--color--custom-titres-et-boutons);
+    color: var(--wp--preset--color--base) !important;
+    border: 0;
+    padding: calc(0.667em + 2px) calc(1.33em + 2px);
+}
+
+/* Match WooCommerce controls to the standard outline buttons. */
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce .wp-element-button,
+.woocommerce-page a.button,
+.woocommerce-page button.button,
+.woocommerce-page input.button,
+.woocommerce-page #respond input#submit,
+.woocommerce-page .wp-element-button,
+.single_add_to_cart_button,
+.wc-block-components-button:not(.is-link),
+.wc-block-grid__product-add-to-cart .wp-block-button__link,
+.wc-block-components-product-button .wp-block-button__link,
+.wp-block-woocommerce-product-button .wp-block-button__link,
+.editor-styles-wrapper [data-type^="woocommerce/"] .wp-element-button,
+.editor-styles-wrapper [data-type^="woocommerce/"] .wp-block-button__link,
+.editor-styles-wrapper [data-type^="woocommerce/"] .wc-block-components-button:not(.is-link),
+.editor-styles-wrapper [data-type^="woocommerce/"] a.button,
+.editor-styles-wrapper [data-type^="woocommerce/"] button.button,
+.editor-styles-wrapper [data-type^="woocommerce/"] input.button {
+    background: transparent !important;
+    color: var(--wp--preset--color--custom-titres-et-boutons) !important;
+    border: 2px solid var(--wp--preset--color--custom-titres-et-boutons) !important;
+    border-radius: 2rem !important;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.1) !important;
+    box-sizing: border-box;
+    font-family: var(--wp--preset--font-family--button-font) !important;
+    font-size: var(--wp--preset--font-size--small) !important;
+    font-weight: 500 !important;
+    line-height: 1 !important;
+    padding: 0.667em 1.33em !important;
+    text-transform: capitalize !important;
+    transition: all !important;
+}
+
+.woocommerce a.button:hover,
+.woocommerce a.button:focus-visible,
+.woocommerce button.button:hover,
+.woocommerce button.button:focus-visible,
+.woocommerce input.button:hover,
+.woocommerce input.button:focus-visible,
+.woocommerce #respond input#submit:hover,
+.woocommerce #respond input#submit:focus-visible,
+.woocommerce .wp-element-button:hover,
+.woocommerce .wp-element-button:focus-visible,
+.woocommerce-page a.button:hover,
+.woocommerce-page a.button:focus-visible,
+.woocommerce-page button.button:hover,
+.woocommerce-page button.button:focus-visible,
+.woocommerce-page input.button:hover,
+.woocommerce-page input.button:focus-visible,
+.woocommerce-page #respond input#submit:hover,
+.woocommerce-page #respond input#submit:focus-visible,
+.woocommerce-page .wp-element-button:hover,
+.woocommerce-page .wp-element-button:focus-visible,
+.single_add_to_cart_button:hover,
+.single_add_to_cart_button:focus-visible,
+.wc-block-components-button:not(.is-link):hover,
+.wc-block-components-button:not(.is-link):focus-visible,
+.wc-block-grid__product-add-to-cart .wp-block-button__link:hover,
+.wc-block-grid__product-add-to-cart .wp-block-button__link:focus-visible,
+.wc-block-components-product-button .wp-block-button__link:hover,
+.wc-block-components-product-button .wp-block-button__link:focus-visible,
+.wp-block-woocommerce-product-button .wp-block-button__link:hover,
+.wp-block-woocommerce-product-button .wp-block-button__link:focus-visible,
+.editor-styles-wrapper [data-type^="woocommerce/"] .wp-element-button:hover,
+.editor-styles-wrapper [data-type^="woocommerce/"] .wp-element-button:focus-visible,
+.editor-styles-wrapper [data-type^="woocommerce/"] .wp-block-button__link:hover,
+.editor-styles-wrapper [data-type^="woocommerce/"] .wp-block-button__link:focus-visible,
+.editor-styles-wrapper [data-type^="woocommerce/"] .wc-block-components-button:not(.is-link):hover,
+.editor-styles-wrapper [data-type^="woocommerce/"] .wc-block-components-button:not(.is-link):focus-visible,
+.editor-styles-wrapper [data-type^="woocommerce/"] a.button:hover,
+.editor-styles-wrapper [data-type^="woocommerce/"] a.button:focus-visible,
+.editor-styles-wrapper [data-type^="woocommerce/"] button.button:hover,
+.editor-styles-wrapper [data-type^="woocommerce/"] button.button:focus-visible,
+.editor-styles-wrapper [data-type^="woocommerce/"] input.button:hover,
+.editor-styles-wrapper [data-type^="woocommerce/"] input.button:focus-visible {
+    background: var(--wp--preset--color--custom-titres-et-boutons) !important;
+    color: var(--wp--preset--color--base) !important;
+    border: 0 !important;
+    padding: calc(0.667em + 2px) calc(1.33em + 2px) !important;
+}

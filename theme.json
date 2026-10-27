@@ -53,18 +53,18 @@
 					"slug": "primary"
 				},
 				{
-					"color": "#e54c7c",
+					"color": "#e8c8be",
 					"name": "Secondaire",
 					"slug": "secondary"
 				},
 				{
-					"color": "#a00054",
-					"name": "Rose Foncé",
+					"color": "#7a1e2c",
+					"name": "Texte sur Fond",
 					"slug": "tertiary"
 				},
 				{
-					"color": "#f9bfc1",
-					"name": "Rose Clair",
+					"color": "#7a1e2c",
+					"name": "Bordeaux",
 					"slug": "quaternary"
 				},
 				{
@@ -86,6 +86,11 @@
 					"color": "#d3d3d3",
 					"name": "Gris clair",
 					"slug": "lightgray"
+				},
+				{
+					"color": "#7a2a86",
+					"name": "Prix boutique",
+					"slug": "prix-boutique"
 				}
 			],
 			"text": true
